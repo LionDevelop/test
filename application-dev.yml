@@ -11,7 +11,7 @@ eureka:
       defaultZone: http://localhost:8090/eureka/
 student:
   name: zhangsan
-  age: 10
+  age: 12
 
 
       
