@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: configclient
+  rabbitmq:
+    host: 192.168.3.17
 eureka:
   instance:
     prefer-ip-address: true
