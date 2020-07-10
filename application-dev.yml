@@ -11,7 +11,7 @@ eureka:
 
 student:
   name: zhangsan
-  age: 26
+  age: 28
 
 
       
