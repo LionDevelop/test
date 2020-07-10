@@ -10,8 +10,8 @@ eureka:
     service-url:
       defaultZone: http://localhost:8090/eureka/
 student:
-  name: lisi
-  age: 9
+  name: zhangsan
+  age: 10
 
 
       
