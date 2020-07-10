@@ -2,14 +2,7 @@ server:
   port: 8099
 spring:
   application:
-    name: server
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/LionDevelop/test
-          username: LionDevelop
-          password: tzg5705393
+    name: configclient
 eureka:
   instance:
     prefer-ip-address: true
