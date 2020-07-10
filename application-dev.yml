@@ -8,10 +8,12 @@ eureka:
     prefer-ip-address: true
   client:
     service-url:
-      defaultZone: http://localhost:8080/eureka/
+      defaultZone: http://localhost:8090/eureka/
 student:
   name: lisi
   age: 9
+
+
       
       
       
