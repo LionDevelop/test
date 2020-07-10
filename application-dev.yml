@@ -1,0 +1,18 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/LionDevelop/test
+          username: LionDevelop
+          password: tzg5705393
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka/
